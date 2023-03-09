@@ -2,11 +2,11 @@
 //created by daphne
 void hanoiTower( int n, char *kaynak, char *ara, char *hedef ){ 
  if( n==1 ){
-     printf("\nDiski kaydır: %s -> %s\n", kaynak, hedef); 
+     printf("Diski kaydır: %s -> %s\n", kaynak, hedef); 
  }
  else{ 
     hanoiTower( n-1, kaynak, hedef, ara ); 
-    printf("\nDiski kaydır: %s -> %s\n", kaynak, hedef); 
+    printf("Diski kaydır: %s -> %s\n", kaynak, hedef); 
     hanoiTower( n-1, ara, kaynak, hedef ); 
     } 
  } 
